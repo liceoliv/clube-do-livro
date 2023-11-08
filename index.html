@@ -16,18 +16,8 @@
             </div>
             <div id="form-container">
                 <div id="form-box">
-                    <img src="imagem/magia.png" alt="logo">
-                </div>
-                <div id="register-container"><p>Não tem uma conta? <a href="#">Cadastre-se</a></p></div>
-                <div id="gt-app-container">
-                    <p>Obtenha o aplicativo</p>
-                    <a href="#">
-                        <img src="imagem/google-play.png" alt="loja google play">
-                    </a>
-                    <a href="#">
-                        <img src="imagem/apple.png" alt="apple loja">
-                    </a>
-                </div>
+                    <img id="logo" src="imagem/magia.png" alt="logo">
+
                 <form id="form-login">
                     <input type="text" name="username" placeholder="E-mail ou usuário">
                     <input type="password" name="password" placeholder="Senha">
@@ -39,12 +29,23 @@
                 </div>
                 <div id="other-links">
                     <div id="google-login">
-                        <img src="imagem/google.png" alt="login com o google">
-                        <span>Entrar com o Google</span>
+                       <a href="#"><img src="imagem/google.png" alt="login com o google">
+                        <span>Entrar com o Google</span></a>
+                    </div>
                     </div>
                     <div id="forgot-pass">
                         <a href="#">Esqueceu a senha?</a>
                     </div>
+                </div>
+                <div id="register-container"><p>Não tem uma conta? <a href="#">Cadastre-se</a></p></div>
+                <div id="get-app-container">
+                    <p>Obtenha o aplicativo</p>
+                    <a href="#">
+                        <img src="imagem/google-play.png" alt="loja google play">
+                    </a>
+                    <a href="#">
+                        <img src="imagem/apple.png" alt="apple loja">
+                    </a>
                 </div>
             </div>
         </div>
@@ -52,12 +53,13 @@
     <footer>
         <nav>
             <ul id="footer-links">
-                <li>Sobre</li>
-                <li>Contato</li>
-                <li>Ajuda</li>
-                <li>Privacidade</li>
+                <a href="#"><li>Sobre</li></a>
+                <a href="#"><li>Contato</li></a>
+                <a href="#"><li>Ajuda</li></a>
+                <a href="#"><li>Privacidade</li></a>
             </ul>
         </nav>
+        <p id="copy">Alice de Oliveira &copy; 2023</p>
     </footer>
 </body>
 </html>

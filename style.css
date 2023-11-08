@@ -1,10 +1,206 @@
 :root{
-    --cor-1:#CBAA90;
+    --cor-1:#FCF5E3;
+    --cor-2:#F2DDC2;
+    --cor-3:#BF7B54;
+    --cor-4:#FFD6C0;
+    --cor-5:#594251;
 }
 /* Reset */
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
 }
-main{
+
+/* Containers */
+#main-container{
+    display: flex;
+    margin-top: 30px;
+}
+#banner-container,
+#form-container{
+    flex: 1 1 0;
+    width: 50%;
+}
+#banner-container{
+    text-align: right;
+}
+#banner-container img{
+    width: 100%;
+    margin-right: 15px;
+    margin-top: 30px;
+    max-width: 540px;
+    margin: 25px 30%;
+}
+#form-container{
+    text-align: center;
+}
+
+/* Formulário */
+#form-box{
+    background-color: var(--cor-1);
+    border: 1px solid var(--cor-2);
+    width: 350px;
+    margin-top: 30px;
+    margin: 25px auto;
+}
+
+#logo{
+    width: 125px;
+    height: 125px;
+    margin: 30px auto 12px;
+}
+
+#form-login{
+    margin-top: 20px;
+}
+
+#form-login input{
+    display: block;
+    font-size: 12px;
+    padding: 12px 9px;
+    background-color: var(--cor-4);
+    border: 1px solid var(--cor-1);
+    border-radius: 3px;
+    width: 268px;
+    margin: 5px auto;
+}
+
+#form-login input[type="submit"]{
+    background-color: var(--cor-5);
+    color: #FFFFFF;
+    margin-top: 15px;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 13px;
+    padding: 0;
+    font-weight: bold;
+}
+
+/* Separação */
+.separator{
+    position: relative;
+}
+.line{
+    border-top: 1px solid var(--cor-3);
+    width: 268px;
+    margin: 25px auto 35px;
+}
+.separator span{
+    position: absolute;
+    text-transform: uppercase;
+    color: var(--cor-5);
+    background-color: var(--cor-2);
+    top: -6px;
+    width: 50px;
+    margin-left: -25px;
+    font-size: 14px;
+}
+
+/* Login */
+#google-login{
+    margin-bottom: 25px;
+}
+#google-login a{
+    text-decoration: none;
+    color: var(--cor-5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#google-login img{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+#google-login span{
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 1px;
+}
+
+/* Esqueceu a Senha */
+#forgot-pass{
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+#forgot-pass a{
+    text-decoration: none;
+    color: var(--cor-3);
+}
+
+/* Registro */
+#register-container{
+    background-color: var(--cor-1);
+    border: 1px solid var(--cor-2);
+    width: 350px;
+    margin-top: 10px;
+    padding: 25px;
+    margin: 25px auto;
+}
+#register-container p{
+    font-size: 14px;
+    color: var(--cor-3);
+    font-weight: bold;
+}
+
+#register-container a{
+    color: var(--cor-5);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Get app */
+#get-app-container{
+    text-align: center;
+    width: 350px;
+    margin: 25px auto;
+}
+#get-app-container p{
+    margin: 20px 0;
+    font-size: 13px;
+}
+#get-app-container a{
+    text-decoration: none;
+}
+#get-app-container img{
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+}
+
+/* Footer */
+footer{
+    text-align: left;
+    width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#footer-links{
+    display: flex;
+    list-style: none;
+}
+#footer-links li{
+    margin-right: 10px;
+}
+#footer-links a,
+#copy{
+    text-decoration: none;
+    color: var(--cor-5);
+    font-size: 12px;
+}
+#copy{
+    margin-top: 10px;
+}
+
+/* Responsivo Mobile */
+@media (max-width: 450px){
+    #banner-container{
+        display: none;
+    }
+
 }
