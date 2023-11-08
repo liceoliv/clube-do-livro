@@ -198,7 +198,7 @@ footer{
 }
 
 /* Responsivo Mobile */
-@media (max-width: 500px){
+@media (max-width: 350px){
     #banner-container{
         display: none;
     }
@@ -227,4 +227,14 @@ footer{
     #forgot-pass{
         font-size: 13px;
     }
+    #form-box{ 
+        margin-left: 25px;
+    }
+    #register-container{
+        margin-left: 25px;
+    }
+    #get-app-container{
+        margin-left: 25px;
+    }
+
 }
