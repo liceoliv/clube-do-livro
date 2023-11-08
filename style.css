@@ -198,7 +198,7 @@ footer{
 }
 
 /* Responsivo Mobile */
-@media (max-width: 450px){
+@media (max-width: 500px){
     #banner-container{
         display: none;
     }
