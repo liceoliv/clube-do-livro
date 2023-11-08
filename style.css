@@ -202,5 +202,29 @@ footer{
     #banner-container{
         display: none;
     }
-
+    footer{
+        width: 400px;
+    }
+    #footer-links a,
+    #copy{
+    font-size: 14px;
+    }
+    #get-app-container p{
+        font-size: 16px;
+    }
+    #register-container p{
+        font-size: 15px;
+    }
+    #form-login input{
+        font-size: 15px;
+    }
+    #form-login input[type="submit"]{
+        font-size: 15px;
+    }
+    #google-login span{
+        font-size: 14px;
+    }
+    #forgot-pass{
+        font-size: 13px;
+    }
 }
