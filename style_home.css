@@ -1,0 +1,128 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+/* Cores */
+:root{
+    --cor-1:#FCF5E3;
+    --cor-2:#F2DDC2;
+    --cor-3:#BF7B54;
+    --cor-4:#693E7F;
+    --cor-5:#594251;
+}
+body{
+    height: 100vh;
+}
+
+/* HEADER */
+header{
+    display: flex;
+    width: 100%;
+    height: 180px;
+    border-bottom: 1px solid var(--cor-3);
+}
+.logo{
+    margin: 30px 50px;
+    width: 100px;
+    height: 100px;
+}
+header h1{
+    position: relative;
+    left: 30%;
+    width: 100%;
+    height: 200px;
+    line-height: 100px;
+
+}
+nav{
+    width: 100%;
+}
+.link-header{
+    position: absolute;
+    display: flex;
+    list-style: none;
+    height: 20px;
+    line-height: 40px;
+    top: 30px;
+    right: 30px;
+}
+.link-header a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: var(--cor-5);
+    text-transform: uppercase;
+    transition: .5s;
+}
+.buscar{
+    position: absolute;
+    width: 900px;
+    height: 40px;
+    left: 20%;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid var(--cor-3);
+    background-color: var(--cor-1);
+    top: 100px;
+    font-size: 15px;
+}
+.sair{
+    background-color: var(--cor-5);
+    color: var(--cor-1);
+    padding: 15px;
+    height: 25px;
+    line-height: 4px;
+    font-size: 15px;
+    transition: .5s;
+}
+.link-header a:hover{
+    color: var(--cor-3);
+}
+.sair:hover{
+    cursor: pointer;
+    color: var(--cor-5);
+    background-color: var(--cor-3);
+}
+
+/* MAIN */
+main{
+    position: relative;
+    left: 10%;
+    width: 700px;
+    margin-top: 20px;
+    background-color: var(--cor-2);
+}
+article{
+    margin-bottom: 30px;
+}
+article h3{
+    color: var(--cor-5);
+    font-size: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+article img{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    left: 150px;
+}
+article p{
+    font-size: 18px;
+    color: var(--cor-5);
+    padding: 15px;
+    text-align: justify;
+}
+article a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    color: var(--cor-3);
+    font-weight: bold;
+    transition: .5s;
+    margin-bottom: 50px;
+}
+article a:hover{
+    color: var(--cor-4);
+}
