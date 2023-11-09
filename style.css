@@ -203,11 +203,13 @@ footer{
         display: none;
     }
     footer{
-        width: 400px;
+        max-width: 570px;
+        margin: 0 auto;
     }
     #footer-links a,
     #copy{
     font-size: 14px;
+    
     }
     #get-app-container p{
         font-size: 16px;
@@ -228,14 +230,13 @@ footer{
         font-size: 13px;
     }
     #form-box{ 
-        margin-left: 25px;
-        margin: 0 auto;
+        margin: 0 66px;
     }
     #register-container{
-        margin-left: 25px;
+        margin: 15px 66px;
     }
     #get-app-container{
-        margin-left: 25px;
+        margin: 15px 66px;
     }
 
 }
