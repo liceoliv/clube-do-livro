@@ -230,13 +230,13 @@ footer{
         font-size: 13px;
     }
     #form-box{ 
-        margin: 0 66px;
+        margin: 0 auto;
     }
     #register-container{
-        margin: 15px 66px;
+        margin: 15px auto;
     }
     #get-app-container{
-        margin: 15px 66px;
+        margin: 15px auto;
     }
 
 }
