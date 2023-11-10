@@ -311,3 +311,27 @@ article img:hover{
 .escrever:hover{
     background-color: var(--cor-1);
 }
+
+/* FOOTER */
+footer{
+    width: 100%;
+    background-color: var(--cor-1);
+    border-top: 2px solid var(--cor-8);
+    margin-top: 30px;
+    text-align: center;
+}
+.footer-links{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.footer-links a{
+    text-decoration: none;
+    color: var(--cor-5);
+    margin: 10px 20px;
+}
+.copy{
+    margin-top: 8px;
+    padding: 10px;
+    color: var(--cor-5);
+}
