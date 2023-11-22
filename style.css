@@ -65,6 +65,7 @@
     border-radius: 3px;
     width: 268px;
     margin: 5px auto;
+    cursor: pointer;
 }
 
 #form-login input[type="submit"]{
